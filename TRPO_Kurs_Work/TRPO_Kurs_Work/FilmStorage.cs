@@ -10,14 +10,12 @@ namespace TRPO_Kurs_Work
     public class Film
     {
         string Name;
-        int Duration;
-        string Maker;
-        
-        Film(string name,int duration, string maker)
+        int Duration;        
+
+        public Film(string name,int duration)
         {
             this.Name = name;
-            this.Duration = duration;
-            this.Maker = maker;
+            this.Duration = duration;            
         }
 
         public string GetName()
@@ -30,10 +28,7 @@ namespace TRPO_Kurs_Work
             return Duration;
         }
 
-        public string GetMaker()
-        {
-            return Maker;
-        }
+        
 
     }
 

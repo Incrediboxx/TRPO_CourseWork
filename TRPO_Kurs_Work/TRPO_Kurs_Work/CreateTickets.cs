@@ -10,16 +10,13 @@ using System.Windows.Forms;
 
 namespace TRPO_Kurs_Work
 {
-    public partial class AuthorizationForm : Form
+    public partial class CreateTickets : Form
     {
-        public AuthorizationForm()
+        public CreateTickets(Session session)
         {
             InitializeComponent();
-        }
+            label1.Text = session.GetFilm().GetName();
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
         }
     }
 }

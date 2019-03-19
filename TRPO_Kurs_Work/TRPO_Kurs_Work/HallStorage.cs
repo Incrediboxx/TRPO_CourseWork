@@ -7,13 +7,13 @@ using System.Windows.Forms;
 
 namespace TRPO_Kurs_Work
 {
-    class Hall
+    public class Hall
     {
         int idHall;
         int Capacity;
         bool[,] Places;
 
-        Hall(int idHall,int col,int row)
+        public Hall(int idHall,int col,int row)
         {
             this.idHall = idHall;
             this.Capacity = col * row;
@@ -61,11 +61,11 @@ namespace TRPO_Kurs_Work
         }
     }
 
-    class HallStorage
+    public class HallStorage
     {
         Dictionary<int, Hall> hallStorage = new Dictionary<int, Hall>();
 
-        bool AddHall(Hall hall)
+        public bool AddHall(Hall hall)
         {
             if (!hallStorage.ContainsKey(hall.GetId()))
             {

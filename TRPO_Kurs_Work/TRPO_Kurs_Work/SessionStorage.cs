@@ -7,14 +7,14 @@ using System.Windows.Forms;
 
 namespace TRPO_Kurs_Work
 {
-    class Session
+    public class Session
     {
         int idSession;
         Film film;
         Hall hall;
         int price;
 
-        Session(int n,Film film,Hall hall,int price)
+        public Session(int n,Film film,Hall hall,int price)
         {
             this.idSession = n;
             this.film = film;
@@ -42,7 +42,7 @@ namespace TRPO_Kurs_Work
             return price;
         }
     }
-    class SessionStorage
+    public class SessionStorage
     {
         Dictionary<int, Session> sessionStorage = new Dictionary<int, Session>();
 
@@ -64,6 +64,11 @@ namespace TRPO_Kurs_Work
                                 );
                 return false;
             }
+        }
+
+        public IDictionary<int, Session> GetStorage()
+        {
+            return sessionStorage;
         }
     }
 }

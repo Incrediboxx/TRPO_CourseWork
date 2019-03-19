@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace TRPO_Kurs_Work
 {
-    class Ticket
+    public class Ticket
     {
         int idTicket;
         Session session;
@@ -37,7 +37,7 @@ namespace TRPO_Kurs_Work
 
 
     }
-    class SoldedTicket
+    public class SoldedTicket
     {
         Dictionary<int, Ticket> tickedStorage = new Dictionary<int, Ticket>();
 

@@ -13,10 +13,10 @@ namespace TRPO_Kurs_Work
         /// </summary>
         [STAThread]
         static void Main()
-        {
+        {            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AuthorizationForm());
+            Application.Run(new EnterForm());
         }                
     }
 }

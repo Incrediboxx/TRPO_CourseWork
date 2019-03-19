@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace TRPO_Kurs_Work
 {
-    class ClientStorage
+    public class ClientStorage
     {
         Dictionary<string, Client> clientStorage = new Dictionary<string, Client>();
 
