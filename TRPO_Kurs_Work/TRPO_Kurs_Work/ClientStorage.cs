@@ -31,6 +31,6 @@ namespace TRPO_Kurs_Work
         {
             return clientStorage;
         }
-        //New comment
+        
     }
 }

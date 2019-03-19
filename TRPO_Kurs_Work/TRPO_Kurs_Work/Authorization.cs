@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TRPO_Kurs_Work
 {
-    public partial class Form1 : Form
+    public partial class AuthorizationForm : Form
     {
-        public Form1()
+        public AuthorizationForm()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
