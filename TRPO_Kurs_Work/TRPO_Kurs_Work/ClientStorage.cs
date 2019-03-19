@@ -3,31 +3,37 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace TRPO_Kurs_Work
 {
     class ClientStorage
     {
-        private static ClientStorage storage;        
-        ClientStorage()
-        {}
-        public static ClientStorage getStorage()
-        {
-            if (storage == null)
-                storage = new ClientStorage();
-            return storage;
-        }
+        Dictionary<string, Client> clientStorage = new Dictionary<string, Client>();
 
-        IDictionary<String, Client> clientStorage = new Dictionary<String, Client>();
 
-        void PutClient(Client client)
+
+        public bool AddClient(Client client)
         {
             if (!clientStorage.ContainsKey(client.getPhone()))
+            {
                 clientStorage.Add(client.getPhone(), client);
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("Клиент с таким номером уже зарегестрирован",
+                                "Ошибка",
+                                 MessageBoxButtons.OK,
+                                 MessageBoxIcon.Information,
+                                 MessageBoxDefaultButton.Button1,
+                                 MessageBoxOptions.DefaultDesktopOnly
+                                );
+                return false;
+            }
         }
 
-        IDictionary<String, Client> GetStotage()
+        public IDictionary<String, Client> GetStotage()
         {
             return clientStorage;
         }

@@ -1,0 +1,10 @@
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\bin\Debug\TRPO_Kurs_Work.exe.config
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\bin\Debug\TRPO_Kurs_Work.exe
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\bin\Debug\TRPO_Kurs_Work.pdb
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.csprojResolveAssemblyReference.cache
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.AuthorizationForm.resources
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.Properties.Resources.resources
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.csproj.GenerateResource.Cache
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.csproj.CoreCompileInputs.cache
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.exe
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.pdb
