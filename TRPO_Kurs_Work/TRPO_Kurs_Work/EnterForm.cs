@@ -28,12 +28,12 @@ namespace TRPO_Kurs_Work
             DataBase.hallStorage.AddHall(new Hall(5, 12, 8));
             DataBase.hallStorage.AddHall(new Hall(6, 12, 8));
 
-            DataBase.sessionStorage.AddSession(new Session(1, DataBase.filmStorage.GetStorage()["Мстители"], DataBase.hallStorage.GetStorage()[1], 150));
-            DataBase.sessionStorage.AddSession(new Session(2, DataBase.filmStorage.GetStorage()["Гарри Поттер"], DataBase.hallStorage.GetStorage()[2], 100));
-            DataBase.sessionStorage.AddSession(new Session(3, DataBase.filmStorage.GetStorage()["Зелёная книга"], DataBase.hallStorage.GetStorage()[3], 123));
-            DataBase.sessionStorage.AddSession(new Session(4, DataBase.filmStorage.GetStorage()["Капитан Америка"], DataBase.hallStorage.GetStorage()[4], 140));
-            DataBase.sessionStorage.AddSession(new Session(5, DataBase.filmStorage.GetStorage()["Форсаж"], DataBase.hallStorage.GetStorage()[5], 100));
-            DataBase.sessionStorage.AddSession(new Session(6, DataBase.filmStorage.GetStorage()["Мстители"], DataBase.hallStorage.GetStorage()[6], 150));
+            DataBase.sessionStorage.AddSession(new Session(1, DataBase.filmStorage.GetStorage()["Мстители"], DataBase.hallStorage.GetStorage()[1].GetId(), 150));
+            DataBase.sessionStorage.AddSession(new Session(2, DataBase.filmStorage.GetStorage()["Гарри Поттер"], DataBase.hallStorage.GetStorage()[2].GetId(), 100));
+            DataBase.sessionStorage.AddSession(new Session(3, DataBase.filmStorage.GetStorage()["Зелёная книга"], DataBase.hallStorage.GetStorage()[3].GetId(), 123));
+            DataBase.sessionStorage.AddSession(new Session(4, DataBase.filmStorage.GetStorage()["Капитан Америка"], DataBase.hallStorage.GetStorage()[4].GetId(), 140));
+            DataBase.sessionStorage.AddSession(new Session(5, DataBase.filmStorage.GetStorage()["Форсаж"], DataBase.hallStorage.GetStorage()[5].GetId(), 100));
+            DataBase.sessionStorage.AddSession(new Session(6, DataBase.filmStorage.GetStorage()["Мстители"], DataBase.hallStorage.GetStorage()[6].GetId(), 150));
 
             DataBase.clientStorage.AddClient(new Client("Никита", "12"));
         }

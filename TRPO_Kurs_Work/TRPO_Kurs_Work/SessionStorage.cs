@@ -11,14 +11,14 @@ namespace TRPO_Kurs_Work
     {
         int idSession;
         Film film;
-        Hall hall;
+        int hallId;
         int price;
 
-        public Session(int n,Film film,Hall hall,int price)
+        public Session(int n,Film film,int hallId,int price)
         {
             this.idSession = n;
             this.film = film;
-            this.hall = hall;
+            this.hallId = hallId;
             this.price = price;
         }
 
@@ -32,9 +32,9 @@ namespace TRPO_Kurs_Work
             return film;
         }
 
-        public Hall GetHall()
+        public int GetHall()
         {
-            return hall;
+            return hallId;
         }
 
         public int GetPrice()

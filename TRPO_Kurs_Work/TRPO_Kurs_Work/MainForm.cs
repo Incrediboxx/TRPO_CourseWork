@@ -19,7 +19,7 @@ namespace TRPO_Kurs_Work
             {
                 dataGridView1.Rows.Add(list[i].GetFilm().GetName(),
                                        list[i].GetFilm().GetDuration(),
-                                       list[i].GetHall().GetId(),
+                                       list[i].GetHall(),
                                        list[i].GetPrice());
             }
         }
@@ -50,6 +50,17 @@ namespace TRPO_Kurs_Work
                 AdminLogin form = new AdminLogin();
                 form.Show();
             }
+            else
+            {
+                AdminModeForm aForm = new AdminModeForm();
+                aForm.Show();
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            LoadGrid();
         }
     }
 }

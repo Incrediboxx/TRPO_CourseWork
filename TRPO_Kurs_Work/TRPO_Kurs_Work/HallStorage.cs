@@ -11,6 +11,7 @@ namespace TRPO_Kurs_Work
     {
         int idHall;
         int Capacity;
+        int col, row;
         bool[,] Places;
 
         public Hall(int idHall,int col,int row)
@@ -18,11 +19,23 @@ namespace TRPO_Kurs_Work
             this.idHall = idHall;
             this.Capacity = col * row;
             this.Places = new bool[col,row];
+            this.col = col;
+            this.row = row;
         }
 
         public int GetId()
         {
             return idHall;
+        }
+
+        public int GetCol()
+        {
+            return col;
+        }
+
+        public int GetRow()
+        {
+            return row;
         }
 
         public int GetCapacity()

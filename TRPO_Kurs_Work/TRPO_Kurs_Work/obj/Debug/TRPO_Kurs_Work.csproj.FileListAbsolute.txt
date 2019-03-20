@@ -12,3 +12,4 @@ C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Wo
 C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.MainForm.resources
 C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.CreateTickets.resources
 C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.AdminLogin.resources
+C:\Users\Incredibox\Documents\GitHub\TRPO_CourseWork\TRPO_Kurs_Work\TRPO_Kurs_Work\obj\Debug\TRPO_Kurs_Work.AdminModeForm.resources
